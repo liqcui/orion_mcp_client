@@ -1,0 +1,15 @@
+# Requirements for Orion MCP Client
+
+# Core MCP framework and dependencies
+mcp==1.18.0
+pydantic>=2.11.0
+pydantic_core>=2.33.0
+typing_extensions>=4.15.0
+
+# MCP client dependencies
+anyio>=4.5.0
+httpx>=0.27.1
+httpx-sse>=0.4.0
+
+# Optional: For working with images in examples
+pillow>=10.0.0
